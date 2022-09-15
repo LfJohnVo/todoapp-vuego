@@ -1,4 +1,4 @@
-module robot-monitoreo
+module backend
 
 go 1.18
 

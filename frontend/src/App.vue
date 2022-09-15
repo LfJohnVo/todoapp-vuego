@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <form-tareas />
+    <div id="app" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Tareas</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <tabla-tareas />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TablaTareas from "@/components/TablaTareas.vue";
+import FormTareas from "@/components/FormTareas.vue";
 
 export default {
-  name: 'App',
+  name: "app",
   components: {
-    HelloWorld
-  }
-}
+    TablaTareas,
+    FormTareas,
+  },
+};
 </script>
-
+  
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+button {
+  background: #009435;
+  border: 1px solid #009435;
 }
 </style>

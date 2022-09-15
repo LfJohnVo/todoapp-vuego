@@ -1,8 +1,8 @@
 package databases
 
 import (
-	"robot-monitoreo/config"
-	"robot-monitoreo/models"
+	"backend/config"
+	"backend/models"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/sqlite"

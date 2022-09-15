@@ -1,9 +1,9 @@
 package utils
 
 import (
+	"backend/config"
 	"fmt"
 	"os"
-	"robot-monitoreo/config"
 )
 
 // ConnectionURLBuilder func for building URL connection.

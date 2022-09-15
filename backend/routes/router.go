@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"robot-monitoreo/handlers"
+	"backend/handlers"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/monitor"
